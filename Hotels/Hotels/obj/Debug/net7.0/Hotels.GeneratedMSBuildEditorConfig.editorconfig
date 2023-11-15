@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mar./Desktop/Hotels/Hotels/Hotels
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mar./Desktop/Hotels/Hotels/Hotels/Views/Dashboard/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mar./Desktop/Hotels/Hotels/Hotels/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mar./Desktop/Hotels/Hotels/Hotels/Views/Dashboard/Rooms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL1Jvb21zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mar./Desktop/Hotels/Hotels/Hotels/Views/Home/Edit.cshtml]

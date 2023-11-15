@@ -36,6 +36,27 @@ namespace Hotels.Controllers
             return View(hotel);
         }
 
+        public IActionResult Rooms()
+        {
+            var hotel = _context.hotel.ToList();
+            ViewBag.hotel = hotel;
+            return View();
+        }
+
+        public IActionResult Edit(int id)
+        {
+            var hoteledit =
+                _context.hotel.SingleOrDefault(x => x.Id == id);
+            return View(hoteledit);
+        }
+
+        public IActionResult Update(Hotel hotel)
+        {
+            _context.hotel.Update(hotel);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         public IActionResult CreateNewHotel(Hotel hotels)
         {
             _context.hotel.Add(hotels);
