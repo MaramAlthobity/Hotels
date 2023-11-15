@@ -1,29 +1,26 @@
 ﻿<Properties StartupConfiguration="{0F20CF99-4B66-4104-A5ED-0E2934875102}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hotels/Controllers/DashboardController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hotels/Views/Dashboard/Rooms.cshtml">
     <Files>
-      <File FileName="Hotels/Program.cs" Line="1" Column="1" />
-      <File FileName="Hotels/Views/Dashboard/Rooms.cshtml" Line="1" Column="1" />
-      <File FileName="Hotels/Views/Dashboard/RoomDetails.json" Line="1" Column="1" />
-      <File FileName="Hotels/Views/Dashboard/Edit.cshtml" Line="1" Column="1" />
-      <File FileName="Hotels/Views/Home/Edit.cshtml" Line="1" Column="1" />
       <File FileName="Hotels/Controllers/DashboardController.cs" Line="49" Column="17" />
+      <File FileName="Hotels/Views/Home/Edit.cshtml" Line="48" Column="1" />
+      <File FileName="Hotels/Views/Dashboard/RoomDetails.cshtml" Line="351" Column="1" />
+      <File FileName="Hotels/Views/Dashboard/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Hotels/Views/Dashboard/Rooms.cshtml" Line="351" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Hotels" expanded="True">
+          <Node name="Hotels">
             <Node name="Hotels">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="DashboardController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views">
-                <Node name="Dashboard" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Dashboard">
+                  <Node name="Rooms.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -36,7 +33,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/mar./Desktop/Hotels/Hotels/Hotels/Views/Shared/_Layout.cshtml" relfile="Hotels/Views/Shared/_Layout.cshtml" line="5" column="1" />
-      <Breakpoint file="/Users/mar./Desktop/Hotels/Hotels/Hotels/Controllers/DashboardController.cs" relfile="Hotels/Controllers/DashboardController.cs" line="30" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Hotels PreferredExecutionTarget="/Applications/Google Chrome.app" />
